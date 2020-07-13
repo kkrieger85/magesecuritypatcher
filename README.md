@@ -2,6 +2,28 @@
 
 ### Updates
 
+06/25/20 - Updated to include patch SUPEE-11346
+
+05/14/20 - Updated to include patch SUPEE-11314
+
+02/07/20 - Updated to include patch SUPEE-11295
+
+10/11/19 - Updated to include patch SUPEE-11219
+
+06/26/19 - Updated to include patch SUPEE-11155
+
+03/28/19 - Updated to include patch SUPEE-11086
+
+03/19/19 - Updated to include Authorize.net MD5 Patch and Admin Dashboard Charts Patch
+
+11/29/18 - Updated to include patch SUPEE-10975 and PHP 7 compatibility updates
+
+10/17/18 - Updated for Magento 2 versions 2.1.15 / 2.2.6
+
+9/19/18 - Updated to include patch SUPEE-10888
+
+6/28/18 - Updated to include patch SUPEE-10752
+
 2/27/18 - Updated for SUPEE-10570 and Magento 2 Versions 2.0.18 / 2.1.12 / 2.2.3
 
 12/19/17 - Support for Magento 2 Community Released
@@ -23,7 +45,7 @@
 ### About
 Mage Security Patcher is a more effective alternative to the standard magento patches. Patching Magento is prone to failure because you are applying patches over patches, and sometimes even multiple versions of patches.  Figuring out what patches you need and what versions is also painful and error prone.
 
-Instead, this patcher updates the entire Magento installation to a fully patched state - automatically.  It works 100% of the time, because instead of applying individual patches and building up patched files, *it patches your Magento installation directly to the final state of having all patches applied*. It also adds in form keys to custom templates that would not be included in the standard patch libraries.
+Instead, this patcher updates the entire Magento installation to a fully patched state - automatically.  It works 100% of the time as long as it can determine the version and has a patchable archive for it, because instead of applying individual patches and building up patched files, *it patches your Magento installation directly to the final state of having all patches applied*. It also adds in form keys to custom templates that would not be included in the standard patch libraries.
 
 Works for Magento 1 & 2 Community Versions 1.5.0.1 - Current
 
